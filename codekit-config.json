@@ -161,18 +161,6 @@
       "initialSize" : 1226,
       "fileType" : 8192
     },
-    "\/_build\/scss\/scylla\/modules\/_global.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_build\/scss\/scylla\/modules\/_global.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_global.css",
-      "fileType" : 4,
-      "debugStyle" : 1
-    },
     "\/_build\/scss\/_forms.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -182,6 +170,18 @@
       "outputStyle" : 1,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/_forms.css",
+      "fileType" : 4,
+      "debugStyle" : 1
+    },
+    "\/_build\/scss\/scylla\/modules\/_global.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_build\/scss\/scylla\/modules\/_global.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_global.css",
       "fileType" : 4,
       "debugStyle" : 1
     },
