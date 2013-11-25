@@ -23,7 +23,7 @@ INDEX:
 }
 
 .primary-navigation {
-  background: rgb( 220, 220, 220);
+  @include clearfix();
 
   .menu {
     display: block;
@@ -37,6 +37,7 @@ INDEX:
     margin: 0 !important;
     overflow-y: auto !important;
     overflow-x: hidden;
+    background: rgb( 220, 220, 220);
     @include box-sizing(content-box);
   }
 
