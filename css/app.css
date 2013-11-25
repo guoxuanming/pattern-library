@@ -1191,6 +1191,12 @@ INDEX:
   width: 250px;
   height: 180px;
 }
+/* line 26, ../_build/scss/_header.scss */
+.brand-logo a {
+  display: block;
+  height: inherit;
+  background: red;
+}
 
 /*
 
@@ -1222,6 +1228,8 @@ INDEX:
 .primary-navigation .menu {
   display: block;
   position: fixed;
+  top: 180px;
+  bottom: 0;
   left: 0;
   right: auto;
   width: 250px;
@@ -1235,19 +1243,19 @@ INDEX:
   -o-box-sizing: content-box;
   box-sizing: content-box;
 }
-/* line 44, ../_build/scss/_primary-nav.scss */
+/* line 45, ../_build/scss/_primary-nav.scss */
 .primary-navigation .menu-item a {
   display: block;
   padding: 21px 2em;
   font-size: 16px;
   text-decoration: none;
 }
-/* line 51, ../_build/scss/_primary-nav.scss */
+/* line 52, ../_build/scss/_primary-nav.scss */
 .primary-navigation .menu-item a:hover {
   color: #e51837;
 }
 
-/* line 60, ../_build/scss/_primary-nav.scss */
+/* line 61, ../_build/scss/_primary-nav.scss */
 .sub-menu {
   display: none;
   position: absolute;
@@ -1256,13 +1264,13 @@ INDEX:
   background: white;
   z-index: 1000;
 }
-/* line 68, ../_build/scss/_primary-nav.scss */
+/* line 69, ../_build/scss/_primary-nav.scss */
 .sub-menu .menu-item {
   float: none;
   border: none;
   border-top: 1px solid #1a1818;
 }
-/* line 73, ../_build/scss/_primary-nav.scss */
+/* line 74, ../_build/scss/_primary-nav.scss */
 .sub-menu .menu-item:last-child {
   border-right: none;
 }
