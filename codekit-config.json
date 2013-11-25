@@ -2,15 +2,15 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-    "\/_build\/scss\/scylla\/modules\/_buttons.scss" : {
+    "\/_build\/scss\/_primary-nav.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_build\/scss\/scylla\/modules\/_buttons.scss",
+      "inputAbbreviatedPath" : "\/_build\/scss\/_primary-nav.scss",
       "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_buttons.css",
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_primary-nav.css",
       "fileType" : 4,
       "debugStyle" : 1
     },
@@ -43,7 +43,7 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_build\/scss\/app.scss",
       "outputStyle" : 1,
-      "shouldRunBless" : 0,
+      "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/app.css",
       "fileType" : 4,
       "debugStyle" : 1
@@ -55,7 +55,7 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_build\/scss\/_header.scss",
       "outputStyle" : 1,
-      "shouldRunBless" : 0,
+      "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/_header.css",
       "fileType" : 4,
       "debugStyle" : 1
@@ -67,7 +67,7 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_build\/scss\/scylla\/modules\/_modals.scss",
       "outputStyle" : 1,
-      "shouldRunBless" : 0,
+      "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/_modals.css",
       "fileType" : 4,
       "debugStyle" : 1
@@ -79,7 +79,7 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_build\/scss\/_responsive.scss",
       "outputStyle" : 1,
-      "shouldRunBless" : 0,
+      "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/_responsive.css",
       "fileType" : 4,
       "debugStyle" : 1
@@ -100,7 +100,7 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_build\/scss\/_footer.scss",
       "outputStyle" : 1,
-      "shouldRunBless" : 0,
+      "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/_footer.css",
       "fileType" : 4,
       "debugStyle" : 1
@@ -112,7 +112,7 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_build\/scss\/scylla\/modules\/_grid.scss",
       "outputStyle" : 1,
-      "shouldRunBless" : 0,
+      "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/_grid.css",
       "fileType" : 4,
       "debugStyle" : 1
@@ -144,7 +144,7 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_build\/scss\/_main.scss",
       "outputStyle" : 1,
-      "shouldRunBless" : 0,
+      "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/_main.css",
       "fileType" : 4,
       "debugStyle" : 1
@@ -156,7 +156,7 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_build\/scss\/scylla\/modules\/_helpers.scss",
       "outputStyle" : 1,
-      "shouldRunBless" : 0,
+      "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/_helpers.css",
       "fileType" : 4,
       "debugStyle" : 1
@@ -179,7 +179,7 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_build\/scss\/_forms.scss",
       "outputStyle" : 1,
-      "shouldRunBless" : 0,
+      "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/_forms.css",
       "fileType" : 4,
       "debugStyle" : 1
@@ -191,7 +191,7 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_build\/scss\/scylla\/modules\/_global.scss",
       "outputStyle" : 1,
-      "shouldRunBless" : 0,
+      "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/_global.css",
       "fileType" : 4,
       "debugStyle" : 1
@@ -214,7 +214,7 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_build\/scss\/scylla\/_app-settings.scss",
       "outputStyle" : 1,
-      "shouldRunBless" : 0,
+      "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/_app-settings.css",
       "fileType" : 4,
       "debugStyle" : 1
@@ -226,7 +226,7 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_build\/scss\/scylla\/modules\/_visibility.scss",
       "outputStyle" : 1,
-      "shouldRunBless" : 0,
+      "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/_visibility.css",
       "fileType" : 4,
       "debugStyle" : 1
@@ -238,7 +238,7 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_build\/scss\/scylla\/modules\/_print.scss",
       "outputStyle" : 1,
-      "shouldRunBless" : 0,
+      "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/_print.css",
       "fileType" : 4,
       "debugStyle" : 1
@@ -263,6 +263,18 @@
       "outputAbbreviatedPath" : "\/js\/main.min.js",
       "fileType" : 64
     },
+    "\/_build\/scss\/scylla\/modules\/_buttons.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_build\/scss\/scylla\/modules\/_buttons.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_buttons.css",
+      "fileType" : 4,
+      "debugStyle" : 1
+    },
     "\/_build\/scss\/scylla\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -270,20 +282,8 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_build\/scss\/scylla\/_normalize.scss",
       "outputStyle" : 1,
-      "shouldRunBless" : 0,
+      "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/_normalize.css",
-      "fileType" : 4,
-      "debugStyle" : 1
-    },
-    "\/_build\/scss\/_primary-nav.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_build\/scss\/_primary-nav.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_primary-nav.css",
       "fileType" : 4,
       "debugStyle" : 1
     }
