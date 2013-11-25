@@ -1,0 +1,104 @@
+/*
+==================================================
+  App Name: Scylla Web Pattern Library
+  App URI:
+  Version: 0.1
+  Description: A collection of front-end elements
+    that make up the Scylla Group website.
+  Author: The Scylla Group, Inc.
+  Author URI: http://scyllagroup.com
+
+  This collector imports all framework, settings,
+  and app related SCSS files.
+==================================================
+
+INDEX:
+
+A. NORMALIZE STYLES
+B. APP SETTINGS
+C. MODULES
+D. MAIN STYLES
+E. HELPER STYLES
+F. PRINT STYLES
+
+ */
+
+
+/*
+==================================================
+  A. NORMALIZE STYLES
+
+  These styles even out (normalize) the display
+  of HTML elements across browsers.
+==================================================
+ */
+
+@import "scylla/normalize";
+
+
+/*
+==================================================
+  B. APP SETTINGS
+
+  Imports settings file for the app. This will
+  contain custom settings or overrides of default
+  settings loaded above this line.
+==================================================
+*/
+
+@import "scylla/app-settings";
+
+
+
+/*
+==================================================
+  C. MODULES
+
+  Imports each Scylla Framework module
+  independently. Comment out the all modules
+  import line above and uncomment the lines for
+  the modules you want to import.
+==================================================
+ */
+
+@import "scylla/modules/global";
+@import "scylla/modules/grid";
+@import "scylla/modules/visibility";
+@import "scylla/modules/buttons";
+@import "scylla/modules/modals";
+
+
+/*
+==================================================
+  D. MAIN STYLES
+
+  Imports the main collector file of authored
+  styles. This will contain any files outside the
+  Scylla Framework.
+==================================================
+ */
+
+@import "main";
+
+
+/*
+==================================================
+  E. HELPER STYLES
+
+  Import helper classes.
+==================================================
+ */
+
+@import "scylla/modules/helpers";
+
+
+/*
+==================================================
+  F. PRINT STYLES
+
+  Theses styles control the appearance of a page
+  when it's printed.
+==================================================
+ */
+
+@import "scylla/modules/print";

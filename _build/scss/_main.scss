@@ -1,0 +1,43 @@
+// ==================================================
+//  MAIN STYLES
+// ==================================================
+//
+// INDEX:
+//
+//
+
+.navigation-container,
+.main-wrap {
+  -webkit-transition: all 0.2s cubic-bezier(.7, 0, .175, 1) 0s;
+     -moz-transition: all 0.2s cubic-bezier(.7, 0, .175, 1) 0s;
+      -ms-transition: all 0.2s cubic-bezier(.7, 0, .175, 1) 0s;
+       -o-transition: all 0.2s cubic-bezier(.7, 0, .175, 1) 0s;
+          transition: all 0.2s cubic-bezier(.7, 0, .175, 1) 0s;
+}
+
+@import "header";
+
+@import "primary-nav";
+
+.main-wrap {
+  margin-left: 250px;
+  margin-right: 0;
+  width: auto;
+  background: $white;
+  -webkit-transform: translateZ(0);
+     -moz-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+       -o-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+     -moz-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+       -o-backface-visibility: hidden;
+          backface-visibility: hidden;
+
+  @include clearfix();
+}
+
+// View Grid
+.row.display { background: #eee; font-size: 11px; margin-bottom: 10px; }
+.row.display .columns, .row.display .column { background: #e7e7e7; border: 1px solid #ddd; font-size: 13px; font-weight: bold; text-indent: 3px; padding-top: 8px; color: #444; padding-bottom: 8px; }
