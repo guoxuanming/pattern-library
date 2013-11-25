@@ -1,16 +1,16 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8376",
+  "creatorBuild" : "8403",
   "files" : {
-    "\/_build\/scss\/scylla\/_normalize.scss" : {
+    "\/_build\/scss\/scylla\/modules\/_buttons.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_build\/scss\/scylla\/_normalize.scss",
+      "inputAbbreviatedPath" : "\/_build\/scss\/scylla\/modules\/_buttons.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_normalize.css",
+      "outputAbbreviatedPath" : "\/css\/_buttons.css",
       "fileType" : 4,
       "debugStyle" : 1
     },
@@ -23,6 +23,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/jquery-1.10.2.min.min.js",
+      "fileType" : 64
+    },
+    "\/js\/main.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/main.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/main.min.min.js",
       "fileType" : 64
     },
     "\/_build\/scss\/app.scss" : {
@@ -94,17 +105,6 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/_build\/js\/plugins.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_build\/js\/plugins.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/plugins.min.js",
-      "fileType" : 64
-    },
     "\/_build\/scss\/scylla\/modules\/_grid.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -116,6 +116,17 @@
       "outputAbbreviatedPath" : "\/css\/_grid.css",
       "fileType" : 4,
       "debugStyle" : 1
+    },
+    "\/_build\/js\/plugins.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_build\/js\/plugins.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/plugins.min.js",
+      "fileType" : 64
     },
     "\/css\/app.css" : {
       "ignoreWasSetByUser" : 0,
@@ -252,15 +263,15 @@
       "outputAbbreviatedPath" : "\/js\/main.min.js",
       "fileType" : 64
     },
-    "\/_build\/scss\/scylla\/modules\/_buttons.scss" : {
+    "\/_build\/scss\/scylla\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_build\/scss\/scylla\/modules\/_buttons.scss",
+      "inputAbbreviatedPath" : "\/_build\/scss\/scylla\/_normalize.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_buttons.css",
+      "outputAbbreviatedPath" : "\/css\/_normalize.css",
       "fileType" : 4,
       "debugStyle" : 1
     },
