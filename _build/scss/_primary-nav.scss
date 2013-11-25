@@ -14,25 +14,37 @@ INDEX:
 ==================================================
  */
 
-.primary-nav {
+.navigation-container {
+  position: relative;
+  width: 250px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.primary-navigation {
+  background: rgb( 220, 220, 220);
 
   .menu {
+    display: block;
+    position: fixed;
+    // bottom: 0;
+    left: 0;
+    right: auto;
+    width: 250px;
     padding: 0;
-    margin: 0;
+    margin: 0 !important;
+    overflow-y: auto !important;
+    overflow-x: hidden;
+    @include box-sizing(content-box);
   }
 
   .menu-item {
-    float: left;
-    border-left: 1px solid rgb( 26, 24, 24);
-
-    &:last-child {
-      border-right: 1px solid rgb( 26, 24, 24);
-    }
 
     a {
       display: block;
       padding: 21px 2em;
-      color: $body_copy;
+      // color: $body_copy;
       font-size: 16px;
       text-decoration: none;
 
@@ -41,11 +53,6 @@ INDEX:
       }
 
     }
-
-    &:hover .sub-menu {
-      display: block;
-    }
-
   }
 
 }
@@ -66,9 +73,7 @@ INDEX:
     &:last-child {
       border-right: none;
     }
-
   }
-
 }
 
 
