@@ -3,7 +3,7 @@
 INDEX:
 
 -1.1 Primary Header
--1.2 Masthead Logo
+-1.2 Brand Logo
 
  */
 
@@ -14,7 +14,12 @@ INDEX:
 
 
 /*
-1.2 Masthead Logo
+1.2 Brand Logo
 ==================================================
  */
 
+.brand-logo {
+  position: fixed;
+  width: 250px;
+  height: 180px;
+}
