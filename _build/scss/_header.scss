@@ -22,4 +22,10 @@ INDEX:
   position: fixed;
   width: 250px;
   height: 180px;
+
+  a {
+    display: block;
+    height: inherit;
+    background: rgb( 255, 0, 0);
+  }
 }
