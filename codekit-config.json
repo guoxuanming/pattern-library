@@ -84,15 +84,6 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/404.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/404.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_build\/scss\/_footer.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -104,6 +95,15 @@
       "outputAbbreviatedPath" : "\/css\/_footer.css",
       "fileType" : 4,
       "debugStyle" : 1
+    },
+    "\/404.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/404.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_build\/js\/plugins.js" : {
       "ignoreWasSetByUser" : 0,
@@ -263,18 +263,6 @@
       "outputAbbreviatedPath" : "\/js\/main.min.js",
       "fileType" : 64
     },
-    "\/_build\/scss\/scylla\/_normalize.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_build\/scss\/scylla\/_normalize.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/_normalize.css",
-      "fileType" : 4,
-      "debugStyle" : 1
-    },
     "\/_build\/scss\/scylla\/modules\/_buttons.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -284,6 +272,18 @@
       "outputStyle" : 1,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/_buttons.css",
+      "fileType" : 4,
+      "debugStyle" : 1
+    },
+    "\/_build\/scss\/scylla\/_normalize.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_build\/scss\/scylla\/_normalize.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_normalize.css",
       "fileType" : 4,
       "debugStyle" : 1
     }
