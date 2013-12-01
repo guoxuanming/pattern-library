@@ -4,3 +4,8 @@
 _build/pattern-library.sublime-workspace
 
 _build/pattern-library.sublime-project
+
+/.DS_Store
+/_build/.DS_Store
+/_build/scss/.DS_Store
+/_build/scss/scylla/.DS_Store
